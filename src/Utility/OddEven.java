@@ -10,4 +10,12 @@ public class OddEven {
         }
         return num;
     }
+
+    public static void main(String[] args) {
+
+        int num = 37;
+
+        System.out.println(oddEven(num));
+
+    }
 }
