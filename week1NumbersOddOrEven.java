@@ -6,10 +6,10 @@ public class week1NumbersOddOrEven {
               System.out.print("Enter a number: ");
               int number = input.nextInt();
 
-              if (number % 2 == 0) {
-                     System.out.println(number + " is Even number");
+              if (number % 2 == 0){
+                 System.out.println(number + " is Even number");
               } else {
-                     System.out.println(number + " is Odd number");
+                 System.out.println(number + " is Odd number");
               }
        }
 }
