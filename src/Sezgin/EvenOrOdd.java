@@ -3,7 +3,7 @@ package Sezgin;
 class EvenOrOdd {
 
     public static void EvenOrOdd(int number) {
-        if (number % 2 == 0) {
+        if (number % 2 != 1) {
             System.out.println(number + " is an even number");
         } else {
             System.out.println(number + " is an odd number");
