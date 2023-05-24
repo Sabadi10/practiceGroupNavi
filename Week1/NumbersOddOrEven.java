@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class week1NumbersOddOrEven {
+public class NumbersOddOrEven {
        public static void main(String[] args) {
 
               Scanner input = new Scanner(System.in);
