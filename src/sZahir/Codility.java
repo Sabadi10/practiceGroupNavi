@@ -1,10 +1,11 @@
-package SZahir;
+package sZahir;
 
 public class Codility {
     public static void ConsecutiveNumber(int num){
 
     for (int i = 1; i <= num; i++) {
         StringBuilder output = new StringBuilder();
+
 
         if (i % 2 == 0) {
             output.append("Codility");
