@@ -1,10 +1,10 @@
-package SZahir;
-
+package sZahir;
+//Write a method that can divide two numbers without using division operator
 public class Division {
 
-        //create the method
+
         public static int divide (int numerator, int denominator) {
-            if (denominator == 0) { //ensure that it cannot be divided by zero
+            if (denominator == 0 || numerator==0) {
                 throw new ArithmeticException("cannot divide by zero");
             }
             //ensure that the signs of both num and denominator are the same

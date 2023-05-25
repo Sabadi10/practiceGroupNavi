@@ -1,4 +1,4 @@
-package SZahir;
+package sZahir;
 
 public class VariableSwap {
     public static void main(String[] args) {
