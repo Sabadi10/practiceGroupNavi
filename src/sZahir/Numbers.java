@@ -1,5 +1,10 @@
 package sZahir;
-
+/*
+ write a program that can print numbers between 1-100 that can be divisible by 3,5,15
+ - if the number can be divisible by 3,5, 15, it should only be displayed in the  DivisibleBy15 section
+ - if the number can be divisible by 3 and not 15 it should only be displayed in the DivisibleBy3 section
+ -divisible by 5 but not 15 it should only be displayed in the DivisibleBy5 section
+  */
 public class Numbers {
     public static void main(String[] args) {
 
@@ -36,9 +41,3 @@ public class Numbers {
 
 
 
- /*
- write a program that can print numbers between 1-100 that can be divisible by 3,5,15
- - if the number can be divisible by 3,5, 15, it should only be displayed in the  DivisibleBy15 section
- - if the number can be divisible by 3 and not 15 it should only be displayed in the DivisibleBy3 section
- -divisible by 5 but not 15 it should only be displayed in the DivisibleBy5 section
-  */
