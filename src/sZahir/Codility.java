@@ -8,7 +8,7 @@ public class Codility {
 
 
         if (i % 2 == 0) {
-            output.append("Codility");
+            output.append("Codility"); // output stores the values
         }
         if (i % 3 == 0) {
             output.append("Test");
