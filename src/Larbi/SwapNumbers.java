@@ -16,9 +16,9 @@ public class SwapNumbers {
         System.out.print("Enter the second number: ");
         int num2 = scan.nextInt();
 
-        num1 = num1 + num2; // 30
-        num2 = num1 - num2; // 10
-        num1 = num1 - num2; //
+        num1 = num1 * num2; 
+        num2 = num1 / num2; 
+        num1 = num1 / num2; 
 
         System.out.println("num1: " + num1);
         System.out.println("num2: " + num2);
