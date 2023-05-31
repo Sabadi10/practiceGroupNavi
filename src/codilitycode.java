@@ -4,11 +4,11 @@ public class consecutiveNumbers {
 
     public static void main(String[] args) {
 
-        codilityTask(85);
+        codilitycode(80);
     }
     
     
-    public static void codilityTask(int N){
+    public static void codilitycode(int N){
 
         for (int i = 1; i <= N; i++) {   // loop
             StringBuffer lar = new StringBuffer();
