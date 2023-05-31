@@ -1,4 +1,4 @@
-package EmirQuestions;
+package emirQuestions;
 
 import java.util.Scanner;
 public class OddOrEven {
