@@ -1,28 +1,25 @@
 package Utility;
 
 public class Division {
+    /*
+    Write a method that can divide two numbers without using division operator
+     */
 
-    public static int divide(int x, int y){
-        if( y == 0 ){
-            throw new ArithmeticException("can not divide by zero");
+    public static int divide(int x, int y) {
+        if (y == 0) {
+            System.out.println("can not divide by zero");
+            System.exit(1);
         }
-        int negPoss = ((x < 0) || (y < 0)) ? -1 : 1;
-
-        x = Math.abs(x);
-        y = Math.abs(y);
 
         int count = 0;
 
-        while ( x >= y){
-            x -= y;
+        while (x >= y) {
+            x-= y;
             count++;
         }
-        return  negPoss * count;
+        System.out.println(x + " divide by " + y + " is " + count );
+        return count;
     }
 
-    public static void main(String[] args) {
-        int x = 34;
-        int y = 11;
-        System.out.println(divide(x,y));
-    }
 }
+
