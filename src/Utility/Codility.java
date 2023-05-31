@@ -28,6 +28,8 @@ from 1 to n  each on separate lines. However , any number divisible by 2, 3 or 5
                 System.out.println(divisibleBy3);
             }else if(i % 5 ==0 && i %2 !=0 & i % 3 !=0){
                 System.out.println(divisibleBy5);
+            }else{
+                System.out.println(i);
             }
 
 
