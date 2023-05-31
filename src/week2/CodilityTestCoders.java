@@ -1,4 +1,4 @@
-package Sezgin;
+package week2;
 
 public class CodilityTestCoders {
 }

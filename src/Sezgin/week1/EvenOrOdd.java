@@ -1,4 +1,4 @@
-package Sezgin;
+package Sezgin.week1;
 
 class EvenOrOdd {
 

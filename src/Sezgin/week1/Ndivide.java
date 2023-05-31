@@ -1,3 +1,5 @@
+package Sezgin.week1;
+
 public class Ndivide {
     public static int divide(int x, int y) {
         if (y == 0) {
