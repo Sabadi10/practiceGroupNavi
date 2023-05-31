@@ -25,7 +25,7 @@ public class consecutiveNumbers {
             
 
             if (lar.length() > 0) {
-                System.out.println(str);
+                System.out.println(lar);
             } else {
                 System.out.println(i);
             }
