@@ -12,7 +12,7 @@ public class Numbers {
 
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
-                System.out.print(i + " ");
+                System.out.print( i + " " );
             }
         }
         System.out.println();
@@ -27,7 +27,7 @@ public class Numbers {
 
         System.out.println();
 
-        System.out.print("Divisible By 5: ");
+       System.out.print("Divisible By 5: ");
 
         for (int num = 1; num <= 100; num++) {
             if (num % 5 == 0 && num % 15 != 0) {
