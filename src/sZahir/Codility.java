@@ -14,6 +14,7 @@ public class Codility {
              StringBuilder output = new StringBuilder();
 
 
+
             if (i % 2 == 0) {
                 output.append("Codility"); // output stores the values
 
@@ -41,7 +42,8 @@ public class Codility {
 
     public static void main(String[] args) {
 
-ConsecutiveNumber(90);
+ConsecutiveNumber(30);
+
 
         }
 
