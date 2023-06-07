@@ -8,7 +8,7 @@ from 1 to n  each on separate lines. However , any number divisible by 2, 3 or 5
 
     public static void main(String[] args) {
 
-        int number = 24;
+        int number = 74;
         String divisibleBy2 = "Codility";
         String divisibleBy3 = "Test";
         String divisibleBy5 = "Coders";
