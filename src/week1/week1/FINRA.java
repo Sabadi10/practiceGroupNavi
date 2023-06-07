@@ -1,4 +1,4 @@
-package Sezgin.week1;
+package week1.week1;
 
 public class FINRA {
 

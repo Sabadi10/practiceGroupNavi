@@ -1,4 +1,4 @@
-package Sezgin.week1;
+package week1.week1;
 
 public class Ndivide {
     public static int divide(int x, int y) {
