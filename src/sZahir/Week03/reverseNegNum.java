@@ -1,5 +1,5 @@
 package sZahir.Week03;
-///Write a return method that can reverse negative number and return it as int
+///This is a return method that can reverse negative number and return it as int
 /*
 -if number is positive it will return positive number
 -if number is negative then it reversed the number e.g.
@@ -14,7 +14,7 @@ public class reverseNegNum {
         }
         int result=0;
         while(num <0) {
-            result = result * 10 + num % 10;
+            result = result * 10 + num % 10; // take the # multiply by 10 then add remainder
             num = num / 10;
         }
         return result;
@@ -22,6 +22,6 @@ public class reverseNegNum {
     }
 
     public static void main(String[] args) {
-        System.out.println(reverseNegNumbers(-7890));
+        System.out.println(reverseNegNumbers(-789));
     }
 }
