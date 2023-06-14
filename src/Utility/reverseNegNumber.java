@@ -23,7 +23,8 @@ public class reverseNegNumber {
 
 
     public static void main(String[] args) {
-        System.out.println(reverseNegNum(-346725));
+
+        System.out.println(reverseNegNum(-100));
     }
 
     }
