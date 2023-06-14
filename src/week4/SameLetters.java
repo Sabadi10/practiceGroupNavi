@@ -37,9 +37,6 @@ public class SameLetters {
                 System.out.println(str1 + " and " + str2 + " not same letters, false.");
             }
         }
-        else {
-            System.out.println(str1 + " and " + str2 + " not same letters, false.");
-        }
 
         input.close();
     }
