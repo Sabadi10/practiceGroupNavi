@@ -15,15 +15,16 @@ public class DuplicateValues {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a string: ");
 
-        String word = scan.nextLine().toLowerCase();
-        scan.close();
+       String word = scan.nextLine().toLowerCase();
+       scan.close();
 
-        String result = "";
+        String result =""; //value of -1
 
         for (int i = 0; i < word.length(); i++) {
 
             char input = word.charAt(i);
-            if (result.indexOf(input) ==-1) {
+            if (result.indexOf(input) ==-1) { // If the index is -1, it means the character is not found in the result string,
+                // indicating that it is unique.
                 result += input;
 
             }

@@ -8,7 +8,7 @@ public class Tasks {
 Ex:  same("abc",  "cab"); -> true
 same("abc",  "abb"); -> false
 
-String -- Remove Duplicates
+2. String -- Remove Duplicates
 
 Write a return method that can remove the duplicated values from String
 Ex:  removeDup("AAABBBCCC")  ==> ABC
