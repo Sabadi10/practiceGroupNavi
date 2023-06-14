@@ -10,15 +10,15 @@ public class Anagram_task01 {
 
     public static void main(String[] args) {
 
-        checkSameLetters("abcuu", "abb");
+        checkAnagram(" abb", "abb");
     }
 
 
-    public static void checkSameLetters(String str1, String str2) {
+    public static void checkAnagram(String str1, String str2) {
 
 
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
+        str1 = str1.toLowerCase().trim();
+        str2 = str2.toLowerCase().trim();
 
         //check if the length is same
         if (str1.length() == str2.length()) {
