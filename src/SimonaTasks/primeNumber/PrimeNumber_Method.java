@@ -15,28 +15,30 @@ public class PrimeNumber_Method {
 
     public static void main(String[] args) {
 
-        primeNumber(17);
+        System.out.println(isPrimeNumber(2));
 
 
     }
 
-    public static void primeNumber(int num){
+    public static boolean isPrimeNumber(int num) {
 
-        for (int i = 2; i < num; i++){
-
+        if(num < 2){
+            return false;
         }
 
-        if (num % 2 == 0 && num < 1){
-            System.out.println(num + " is not a prime number");
-        }else {
-            System.out.println(num + " is a prime number");
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
         }
+       return true;
 
-
+    }
 
 
     }
 
 
 
-}
+
+
