@@ -1,4 +1,4 @@
-package sZahir;
+package sZahir.Week01;
 //Write a method that can divide two numbers without using division operator
 public class Division {
 
