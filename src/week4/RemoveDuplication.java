@@ -2,6 +2,7 @@ package week4;
 
 public class RemoveDuplication {
     public static String removeDuplication(String str) {
+
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             if (!result.contains(String.valueOf(str.charAt(i)))) {
