@@ -5,7 +5,7 @@ public class RemoveDuplication {
 
         String result = "";
         for (int i = 0; i < str.length(); i++) {
-            if (!result.contains(String.valueOf(str.charAt(i)))) {
+            if (!result.contains(String.valueOf(str.charAt(i)))) { //method returns the string representation of the argument passed
                 result += String.valueOf(str.charAt(i));
             }
         }
@@ -15,7 +15,7 @@ public class RemoveDuplication {
 
     public static void main(String[] args) {
 
-        System.out.println(removeDuplication("aaaccvbdbdb"));
+        System.out.println(removeDuplication("//**12311aasdd"));
     }
 }
 /*
