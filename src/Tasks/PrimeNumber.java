@@ -1,4 +1,4 @@
-package Task3;
+package Tasks;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class PrimeNumber {
     }
 
     public static Boolean isPrimeNum(int num) {
-        String result = "";
+ //       String result = "";
         boolean isPrime = false;
         if (num <= 1) {
             isPrime = false;

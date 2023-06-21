@@ -1,14 +1,15 @@
-package Task1;
+package Tasks;
 
 public class ConsecutiveNumbers {
     public static void main(String[] args) {
 
-        consNum(65);
+        consNum(10);
     }
     public static void consNum(int N){
 
         for (int i = 1; i <= N; i++) {
             StringBuffer str = new StringBuffer();
+
 
             if(i%2==0){
                 str.append("Codility");

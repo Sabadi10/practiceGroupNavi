@@ -8,7 +8,8 @@ public class RemoveDuplicates {
         //        //Ex:  removeDup("AAABBBCCC")  ==> ABC
 
         String STR1 = "AHGDIEF;LGHFDGVCASVAS;.K0AS5ERV1";
-        System.out.println(removeDup(STR1));
+        removeDup(STR1);
+        System.out.println(STR1);
 
     }
     public static String removeDup(String STR1 ){

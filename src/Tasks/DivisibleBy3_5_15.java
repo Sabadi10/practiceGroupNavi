@@ -1,4 +1,4 @@
-package Task1;
+package Tasks;
 
 public class DivisibleBy3_5_15 {
     public static void main(String[] args) {
