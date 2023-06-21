@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class SameLetters {
     public static void main(String[] args) {
-
+/*
         // create an object of Scanner class
         Scanner input = new Scanner(System.in);
 
@@ -39,8 +39,46 @@ public class SameLetters {
         }
 
         input.close();
+*/
+
+        System.out.println( sameLetters("S TR 1", "1STR"));
     }
-}
+
+
+    public static boolean sameLetters (String str1, String str2){
+        str1=str1.toLowerCase();
+        str2=str2.toLowerCase(); // convert to lower case
+
+        //remove white spaces
+        str1 = str1.replaceAll(" ", "");
+        str2 = str2.replaceAll(" ", "");
+
+        // Check if the lengths of the strings are the same
+
+        if(str1.length() != str2.length()){
+            return false;
+        }
+
+        // Convert the strings to character arrays
+        char[] charArray1= str1.toCharArray();
+        char[] charArray2= str2.toCharArray();
+
+        // Sort the character arrays
+        Arrays.sort(charArray1);
+        Arrays.sort(charArray2);
+
+        // Compare the sorted character arrays
+        return Arrays.equals(charArray1,charArray2);
+
+
+
+    }
+
+
+    }
+
+
+
 /*
 1. Write a return method that checks if a string is built out
 of the same letters as another string.
