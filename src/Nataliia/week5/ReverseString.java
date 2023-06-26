@@ -1,4 +1,4 @@
-package Nataliia;
+package Nataliia.week5;
 
 public class ReverseString {
 

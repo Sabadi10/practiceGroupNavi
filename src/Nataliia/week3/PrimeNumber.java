@@ -1,4 +1,4 @@
-package Nataliia;
+package Nataliia.week3;
 
 public class PrimeNumber {
    /* prime number task

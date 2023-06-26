@@ -1,4 +1,4 @@
-package Nataliia;
+package Nataliia.week4;
 
 public class UniqueCharacter {
     /*String--unique characters

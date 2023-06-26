@@ -1,4 +1,4 @@
-package Nataliia;
+package Nataliia.week6;
 
 public class Array_Max_Number {
 

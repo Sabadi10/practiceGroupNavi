@@ -1,4 +1,4 @@
-package Nataliia;
+package Nataliia.week2;
 
 public class Codility {
     /*

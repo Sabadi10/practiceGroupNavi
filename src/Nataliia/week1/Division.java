@@ -1,4 +1,4 @@
-package Nataliia;
+package Nataliia.week1;
 
 public class Division {
     /*
