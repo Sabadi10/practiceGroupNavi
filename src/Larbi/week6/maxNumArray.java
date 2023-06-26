@@ -2,9 +2,13 @@ package Larbi.week6;
 
 public class maxNumArray {
 
+//    Array - Find Maximum
+//    Write a method that can find the maximum number from an int Array.
+
     public static void main(String[] args) {
 
-        int [] a = {1,11,3,8,5,6};
+        int [] a = null;
+
         int max = 0;
 
         for (int i = 0; i < a.length; i++) {
@@ -14,6 +18,7 @@ public class maxNumArray {
 
         }
         System.out.println(max);
+
 
     }
 

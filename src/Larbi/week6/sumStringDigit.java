@@ -2,6 +2,9 @@ package Larbi.week6;
 
 public class sumStringDigit {
 
+//    String - sum of digits in a string
+//    Write a method that can return the sum of the digits in a string
+
     public static void main(String[] args) {
 
         String str = "2222";
