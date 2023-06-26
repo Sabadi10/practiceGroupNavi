@@ -1,6 +1,6 @@
 package Tasks;
 
-public class T10_String_asswordValidationTask {
+public class T10_String_passwordValidationTask {
     /* 1) String - Password Validation Task
 Write a return method that can verify if a password is valid or not. Requirements:
 1. Password MUST be at least 6 characters and should not contain space
