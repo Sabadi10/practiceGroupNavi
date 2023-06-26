@@ -10,6 +10,7 @@ public class primeNumber {
 
         // Prime numbers: are the number that only divided by their self and by 1
 
+
         System.out.println(primeNum());
 
     }

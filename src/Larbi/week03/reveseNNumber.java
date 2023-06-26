@@ -8,8 +8,10 @@ public class reveseNNumber {
         // Number - Reverse negative number
         // Write a return method that can reverse negative number and return it as int
 
+
         System.out.println(revNNumber());
         // System.out.println(revNegNumber());
+
 
     }
 

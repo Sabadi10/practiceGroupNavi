@@ -11,6 +11,7 @@ public class freqOfChar {
         // Write a return method that can find the frequency of characters
         // Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
 
+
         System.out.println(MM());
 
     }
@@ -18,6 +19,7 @@ public class freqOfChar {
 
 
     public static String MM(){
+
         System.out.print("Enter a string to get its Frequency: ");
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
@@ -26,8 +28,8 @@ public class freqOfChar {
 
         for (int i = 0; i < str.length(); i++) {
 
-            char ch = str.charAt(i);
-            int count = 0;
+            char ch = str.charAt(i); // to read each character of the string
+            int count = 0; // to count the frequency of each character
 
             for(int j = 0; j < str.length(); j++) {
                 if (str.charAt(j) == ch) {
