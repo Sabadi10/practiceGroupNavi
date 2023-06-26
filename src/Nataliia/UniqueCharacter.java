@@ -1,4 +1,4 @@
-package Utility;
+package Nataliia;
 
 public class UniqueCharacter {
     /*String--unique characters
