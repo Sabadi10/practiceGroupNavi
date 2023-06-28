@@ -1,4 +1,4 @@
-package anna;
+package anna.week01;
 
 public class divide {
     public static void NDivide( int n1, int n2){

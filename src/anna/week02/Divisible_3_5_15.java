@@ -1,6 +1,10 @@
-package anna;
+package anna.week02;
 
 public class Divisible_3_5_15 {
+    /*
+    Write a code that can print numbers between 1-100, that can be divisible on 3,5,15
+    Print separately list of digit marked
+     */
     public static void Divisible3_5_15(int a){
         String divisibleBy15 = "divisibleBy15: ";
         String divisibleBy5 = "divisibleBy5: ";

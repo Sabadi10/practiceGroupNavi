@@ -1,6 +1,10 @@
-package anna;
+package anna.week02;
 
 public class Swiping {
+
+    /* needed swiping two digit
+    we a provide two integer variables and change their value
+    */
     public static void main(String[] args) {
 
         int a = 3;

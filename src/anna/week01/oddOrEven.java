@@ -1,4 +1,4 @@
-package anna;
+package anna.week01;
 
 public class oddOrEven {
     public static void identify (int num){
