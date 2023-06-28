@@ -1,4 +1,4 @@
-package anna;
+package anna.week03;
 
 public class consecutiveNum {
     public static void Codility(int n ){

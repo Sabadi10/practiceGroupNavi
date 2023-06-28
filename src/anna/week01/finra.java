@@ -1,4 +1,4 @@
-package anna;
+package anna.week01;
 
 public class finra {
     public static void FINRA(){

@@ -1,4 +1,4 @@
-package anna;
+package anna.week05;
 
 public class ReverseString {
     /*
@@ -15,7 +15,7 @@ public class ReverseString {
     }
 
     public static void main(String[] args) {
-        reverseString("-1a232");
+        reverseString("1a232");
     }
 
 }
