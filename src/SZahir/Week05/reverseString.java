@@ -1,4 +1,4 @@
-package sZahir.Week05;
+package SZahir.Week05;
 /*
 This is a return method that can reverse String
 Ex: Reverse("ABCD"); ==> DCBA

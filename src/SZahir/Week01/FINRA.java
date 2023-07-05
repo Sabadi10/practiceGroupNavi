@@ -1,4 +1,4 @@
-package sZahir.Week01;
+package SZahir.Week01;
 
 public class FINRA {
 

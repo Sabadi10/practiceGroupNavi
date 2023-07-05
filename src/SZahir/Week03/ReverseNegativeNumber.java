@@ -1,4 +1,4 @@
-package sZahir.Week03;
+package SZahir.Week03;
 
 //This is a return method that can reverse negative number and return it as int
 /*

@@ -1,4 +1,4 @@
-package sZahir.Week02;
+package SZahir.Week02;
 /*
  write a program that can print numbers between 1-100 that can be divisible by 3,5,15
  - if the number can be divisible by 3,5, 15, it should only be displayed in the  DivisibleBy15 section

@@ -1,9 +1,7 @@
-package sZahir.Week06;
-
-import java.sql.Array;
+package SZahir.Week06;
 
 /*
-3) Array - Find Maximum
+ Array - Find Maximum
 This a method that can find the maximum number from an int Array
  */
 public class MaximumNumber {
@@ -24,7 +22,8 @@ public class MaximumNumber {
 
  }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println( findMaxNumber(new int[]{11, -2, -3, -4, -5, -6}));
     }
 

@@ -1,4 +1,4 @@
-package sZahir.Week03;
+package SZahir.Week03;
 
 
 
