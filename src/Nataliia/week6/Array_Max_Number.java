@@ -1,5 +1,8 @@
 package Nataliia.week6;
-
+/*
+Array - Find Maximum
+This a method that can find the maximum number from an int Array
+ */
 public class Array_Max_Number {
 
     public static int max_num(int[] numbers) {
