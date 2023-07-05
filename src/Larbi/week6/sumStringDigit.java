@@ -7,8 +7,7 @@ public class sumStringDigit {
 
     public static void main(String[] args) {
 
-        String str = "2222";
-
+        String str = "2541";
         System.out.println(sumOfDigits(str));
     }
 
@@ -17,8 +16,14 @@ public class sumStringDigit {
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
+
+
             if (Character.isDigit(ch)) {
+
                 sum += Character.getNumericValue(ch);
+                // The getNumericValue() method of character class returns the int value of the specified character.
+                // If the character does not have any int value, -1 is returned.
+                // If the character has a numeric value that cannot be represented as a non-negative integer, -2 is returned.
             }
         }
 
