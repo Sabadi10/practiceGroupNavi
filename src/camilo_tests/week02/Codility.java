@@ -1,4 +1,4 @@
-package camilo_tests;
+package camilo_tests.week02;
 
 /*
 Write a function that given a positive integer N prints the consecutive numbers

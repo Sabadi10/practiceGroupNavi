@@ -1,4 +1,4 @@
-package camilo_tests;
+package camilo_tests.week03;
 
 /*
          String - Frequency of Characters

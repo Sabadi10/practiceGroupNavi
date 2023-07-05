@@ -1,4 +1,4 @@
-package camilo_tests;
+package camilo_tests.week02;
 
 import java.util.Scanner;
 /*

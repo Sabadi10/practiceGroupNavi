@@ -1,4 +1,4 @@
-package camilo_tests;
+package camilo_tests.week01;
 
 public class Divide {
 
