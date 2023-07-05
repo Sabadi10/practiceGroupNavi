@@ -1,4 +1,4 @@
-package sZahir.Week02;
+package SZahir.Week02;
 /*
 Swap two variables without using a third variable
  */

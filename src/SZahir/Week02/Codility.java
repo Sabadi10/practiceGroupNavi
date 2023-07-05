@@ -1,4 +1,4 @@
-package sZahir.Week02;
+package SZahir.Week02;
 
 /*
 Write a function that given a positive integer N prints the consecutive numbers

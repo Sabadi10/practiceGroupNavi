@@ -1,4 +1,4 @@
-package sZahir.Week06;
+package SZahir.Week06;
 
 public class StringDigits2 {
     public static int digitSum(String digit) {

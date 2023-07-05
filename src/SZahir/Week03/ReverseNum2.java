@@ -1,4 +1,4 @@
-package sZahir.Week03;
+package SZahir.Week03;
 
 public class ReverseNum2 {
     public static int reverseNegNum(int number) {

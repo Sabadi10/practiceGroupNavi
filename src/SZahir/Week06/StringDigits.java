@@ -1,4 +1,4 @@
-package sZahir.Week06;
+package SZahir.Week06;
 /*
 2) String - sum of digits in a string
 This is a method that can return the sum of the digits in a string

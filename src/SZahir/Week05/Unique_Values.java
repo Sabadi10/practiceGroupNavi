@@ -1,4 +1,4 @@
-package sZahir.Week05;
+package SZahir.Week05;
 
 import java.util.Scanner;
 

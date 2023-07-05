@@ -1,4 +1,4 @@
-package sZahir.Week06;
+package SZahir.Week06;
 /*
 
 This a return method that can verify if a password is valid or not. Requirements:
@@ -9,7 +9,7 @@ Password should at least contain one special characters
 Password should at least contain a digit
 if all requirements above are met, the method returns true, otherwise returns false
  */
-public class passwordValidation {
+public class PasswordValidation {
     public static boolean validPassword(String password) {
         if (password.length() < 6 || password.contains(" ")) {
             return false;
@@ -23,24 +23,25 @@ public class passwordValidation {
                 hasUpperCase = true;
             } else if (Character.isLowerCase(ch)) {
                 hasLowerCase = true;
-            } else if (isSpecialCharacter(ch)) {
-                hasSpecialCharacter = true;
-
             } else if ( Character.isDigit(ch)){
                 hasDigit=true;
+            } else if (!(Character.isUpperCase(ch)&& Character.isLowerCase(ch)|| Character.isDigit(ch) )){
+                hasSpecialCharacter=true;
             }
 
         }
         return hasUpperCase && hasLowerCase && hasSpecialCharacter && hasDigit;
     }
-    public static boolean isSpecialCharacter(char ch){
+   /* public static boolean isSpecialCharacter(char ch){
         String specialCharacters = "!@#$%^&*()_+{}:\"<>?|[];',./~`";
         // Check if the given character is a special character
         return specialCharacters.contains(String.valueOf(ch));
     }
 
+    */
+
     public static void main(String[] args) {
-        System.out.println(validPassword("Abcd#f!hi3"));
+        System.out.println(validPassword("Abcd?fhi3"));
     }
 
 }
