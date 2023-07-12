@@ -1,0 +1,27 @@
+package Last_exercices_raphael;
+
+public class Array_MoveZerosToTheEnd {
+
+
+
+    public static void main(String[] args) {
+        int[] array = {1, 0, 2, 0, 3, 0, 4, 0};
+        moveZerosToTheEnd(array);
+        System.out.println(java.util.Arrays.toString(array));
+    }
+
+    public static void moveZerosToTheEnd(int[] array) {
+        int index = 0;
+        for (int num : array) {
+            if (num != 0) {
+                array[index] = num;
+                index++;
+            }
+        }
+
+        while (index < array.length) {
+            array[index] = 0;
+            index++;
+        }
+    }
+}
