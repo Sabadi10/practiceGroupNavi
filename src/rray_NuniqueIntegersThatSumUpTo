@@ -1,0 +1,38 @@
+package Last_exercices_raphael;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class rray_NuniqueIntegersThatSumUpTo {
+
+
+        public static void main(String[] args) {
+            int N = 4;
+            int[] result = getUniqueIntegersSumUpToZero(N);
+            System.out.println(Arrays.toString(result));
+        }
+
+        public static int[] getUniqueIntegersSumUpToZero(int N) {
+            int[] result = new int[N];
+            int sum = 0;
+
+            for (int i = 0; i < N - 1; i++) {
+                result[i] = getRandomNonZeroNumber(sum);
+                sum += result[i];
+            }
+
+            result[N - 1] = -sum;
+
+            return result;
+        }
+
+        private static int getRandomNonZeroNumber(int sum) {
+
+            Random random = new Random();
+            int num;
+            do {
+                num = random.nextInt(2 * sum + 1) - sum;
+            } while (num == 0);
+            return num;
+        }
+    }
