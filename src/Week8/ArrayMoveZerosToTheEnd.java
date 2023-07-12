@@ -6,19 +6,20 @@ import java.util.Arrays;
                         output: [1, 2, 3, 4, 0, 0, 0, 0]
 */
 public class ArrayMoveZerosToTheEnd {
-    public static int[] moveZeros(int... nums){
 
-        int[] moved = new int[nums.length];
-        int index = 0;
-
-        for(int each : nums){
-            if(each != 0){
-                moved[index++] = each;
-            }
+        public static void main(String[] args) {
+            System.out.println(Arrays.toString(moveZeros(1, 0, 2, 0, 3, 0, 4, 0)));
         }
-        return moved;
+        public static int[] moveZeros(int... nums){
+
+            int[] moved = new int[nums.length];
+            int index = 0; 					// 1
+
+            for(int each : nums){				 //  [1, 2, 3, 4, 0, 0, 0, 0]
+                if(each != 0){
+                    moved[index++] = each;
+                }
+            }
+            return moved;
+        }
     }
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(moveZeros(1, 0, 2, 0, 3, 0, 4, 0)));
-    }
-}
