@@ -26,7 +26,7 @@ For N = 3 one of the possible answers is [-1,0,1]  (but there are many more corr
         int N = 5;
         int[] result = arrayNUniqueIntegersThatSumUpTo(N);
 
-        // Print the resulting array
+
         for (int num : result) {
             System.out.print(num + " ");
         }
