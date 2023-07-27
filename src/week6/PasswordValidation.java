@@ -29,7 +29,7 @@ public class PasswordValidation {
                 hasUpperCase = true;
             } else if (Character.isLowerCase(c)) {
                 hasLowerCase = true;
-            } else if (isSpaceChar(c)) {
+            } else if (Character.isSpaceChar(c)) {
                 hasSpecChar = true;
             } else if (Character.isDigit(c)){
                 hasDigit = true;
@@ -38,7 +38,7 @@ public class PasswordValidation {
         return hasUpperCase && hasLowerCase && hasSpecChar && hasDigit;
     }
     public static void main(String[] args) {
-        System.out.println(PasswordValidation("Sdm@47862"));
+        System.out.println(PasswordValidation("Sdm@#!!!47862"));
     }
 }
 

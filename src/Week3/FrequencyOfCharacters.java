@@ -5,7 +5,7 @@ It's means - how many time we have each elements in given line
  */
 public class FrequencyOfCharacters {
     public static void main(String[] args) {
-        String arg="AAABBCDD";
+        String arg="++jhgf";
         System.out.println("frequency(arg) = " + frequency(arg));
     }
     public static String frequency(String word) {

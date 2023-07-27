@@ -7,7 +7,7 @@ Divide the number by 10. Repeat the above steps until the number becomes 0.
 */
 public class ReverseNegativeNumber {
     public static void main(String[] args){
-            int number = -654321, reverse = 0;
+            int number = -10001, reverse = 0;
             while(number != 0)
             {
                 int remainder = number%10;
